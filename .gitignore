@@ -1,0 +1,9 @@
+*.[or]
+!/Lib/*.r
+core
+local.make
+Source/Text/Grep/egrep.c
+Source/Libs/KLibc/**/*.as
+#!Source/Libs/KLibc/**/*.r
+Source/Libs/KLibc/**/*.l
+Source/Libs/KLibc/**/*.lib
