@@ -1,6 +1,6 @@
 # M6809-CoCoC
 
-This is a repository of buildable OS9/NitrOS9 C source code and the tools needed to build it.
+This is a repository of buildable OS-9 C source code and the tools needed to build it.
 
 ## Commands Included (not a complete list)
 
@@ -21,7 +21,7 @@ rlink	| MW ROF linker from the Development System, Ed. #10
 rma	| MW RMA assembler, Ed. #11
 sed	| Unix stream editor
 
-## Source packages included:
+## Source packages included
 
 ### Source/Archiver/
 
@@ -61,13 +61,8 @@ sed	| Unix stream editor
 
 ## Using OS9-type line endings:
 
-This repository is intended to be useful when overlaid right on top of an
-OS9-type filesystem. If you are using it on a Unix-style system (or a Windows
-system with the `tr` utility), you can add the contents of the file `gitsetup`
-in the root of this repository to your checkout's `.git/config` file. If you
-delete all files in the checkout (that is, all the files _not_ in the `.git/`
-directory) and call `git checkout` again to get them all back, then all of the
-text files (mostly source code) will be checked out with CR-only line endings
-instead of LF for Unix-type systems or CRLF for DOS/Windows-type systems. At
-this point, you should be able to copy the files over to an OS-9 filesystem
-without causing trouble for it.
+This repository is intended to be useful when overlain right on top of an OS9-type filesystem. If you are using it on a Unix-style system (or a Windows
+system with the `tr` utility), you can add the contents of the file `gitsetup` in the root of this repository to your checkout's `.git/config` file. If you
+delete all files in the checkout (that is, all the files _not_ in the `.git/` directory) and call `git checkout` again to get them all back, then all of the
+text files (mostly source code) will be checked out with CR-only line endings instead of LF for Unix-type systems or CRLF for DOS/Windows-type systems. At
+this point, you should be able to copy the files over to an OS-9 filesystem without causing trouble for it.
