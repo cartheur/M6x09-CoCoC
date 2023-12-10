@@ -1,6 +1,6 @@
 # M6809-CoCoC
 
-This is a repository of buildable OS-9 C source code and the tools needed to build it.
+This is a repository of buildable OS-9 C source code and the tools needed to build it. Here will be the focus of _metal_ operating system reseach.
 
 ## Commands Included (not a complete list)
 
