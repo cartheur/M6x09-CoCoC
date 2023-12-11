@@ -6,7 +6,7 @@ This is a repository of buildable OS-9 C source code and the tools needed to bui
 
 Program|Description
 -------|-----------
-c.pass1/c.pass2 | Microware (MW) two-pass (Level I) C compiler, Edition #5
+c.pass1/c.pass2 | Microware (MW) two-pass (Level I) C compiler, Fifth Edition
 c.comp	| MW one-pass (Level II) C compiler Ed. #5
 c.opt	| MW assembly source optimizer Ed. #5
 c.asm	| MW RMA assembler, Ed. #4
