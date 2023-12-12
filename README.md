@@ -2,23 +2,23 @@
 
 This is a repository of buildable OS-9 C source code and the tools needed to build it. Here will be the focus of _metal_ operating system reseach.
 
-## Commands Included (not a complete list)
+## (A Partial list of) Commands Included
 
 Program|Description
 -------|-----------
 c.pass1/c.pass2 | Microware (MW) two-pass (Level I) C compiler, Fifth Edition
-c.comp	| MW one-pass (Level II) C compiler Ed. #5
-c.opt	| MW assembly source optimizer Ed. #5
-c.asm	| MW RMA assembler, Ed. #4
-cc1	| MW two-pass compiler executive, Ed. #4
+c.comp	| MW one-pass (Level II) C compiler, Fifth Edition5
+c.opt	| MW assembly source optimizer, Fifth Edition
+c.asm	| MW RMA assembler, Fourth Edition
+cc1	| MW two-pass compiler executive, Fourth Edition
 cpp	| Advanced preprocessor for the MW C compiler
 dcc	| Advanced, repaired replacement C compiler
 grep/egrep/fgrep | Unix file/text search tools
 help	| Tim Kientzle's public domain structured help facility
 make	| Tim Kientzle's update of Neil Russell's public domain Make
 rdump	| Classic `rdump` updated to work with ROF version 1
-rlink	| MW ROF linker from the Development System, Ed. #10
-rma	| MW RMA assembler, Ed. #11
+rlink	| MW ROF linker from the Development System, Tenth Edition
+rma	| MW RMA assembler, Eleventh Edition
 sed	| Unix stream editor
 
 ## Source packages included
@@ -27,8 +27,8 @@ sed	| Unix stream editor
 
 > Dir|Description
 > ---|-----------
-> AR	| Carl Kreider's OS-9 Ar archiver
-> CUTS	| The CoCo Usenet Transfer System (like uuencode)
+> AR	| Carl Kreider's OS-9 `Ar` archiver
+> CUTS	| The CoCo Usenet Transfer System (like `uuencode`)
 
 ### Source/Compiler/
 
@@ -66,3 +66,7 @@ system with the `tr` utility), you can add the contents of the file `gitsetup` i
 delete all files in the checkout (that is, all the files _not_ in the `.git/` directory) and call `git checkout` again to get them all back, then all of the
 text files (mostly source code) will be checked out with CR-only line endings instead of LF for Unix-type systems or CRLF for DOS/Windows-type systems. At
 this point, you should be able to copy the files over to an OS-9 filesystem without causing trouble for it.
+
+## ToDo
+
+Integrate the latest GitHub tools on a `./configure` for an automatic build. 
